@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: 'net';
-  src:url(https://rawcdn.githack.com/carloscm7/surprise/e2aa9f781c51f954d66feed03f209be291f60906/net.woff);
+  src:url(../net.woff);
 }
 
 /*--------------------------------------------------------------
@@ -544,12 +544,15 @@ h6 {
 }
 
 #hero h1 span {
+  font-family: "net";
   color: #5e39d0;
 }
 
 @media (max-width: 991px) {
   #hero h1 {
+    font-family: "net";
     font-size: 34px;
+    
   }
 }
 
